@@ -1,0 +1,123 @@
+# Dependencies
+node_modules/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.so
+
+# Environment Variables - NEVER COMMIT THESE
+.env
+.env.local
+.env.*.local
+.env.development
+.env.production
+.env.staging
+*.local
+
+# API Keys and Secrets
+*.key
+*.pem
+*.crt
+secrets/
+credentials/
+private/
+keys/
+*.secret
+*.token
+
+# JWT and Auth
+jwt_secret.txt
+auth_key*
+
+# Build outputs
+.next/
+dist/
+build/
+out/
+*.egg-info/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Testing
+coverage/
+.nyc_output/
+.pytest_cache/
+htmlcov/
+
+# Database
+*.sqlite
+*.sqlite3
+*.db
+*.mdb
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+*.temp
+*.swp
+
+# Uploads and generated content
+uploads/
+generated/
+outputs/
+*.generated
+
+# Docker
+.dockerignore
+
+# Terraform
+.terraform/
+*.tfstate
+*.tfstate.*
+
+# Cache
+.ruff_cache/
+.mypy_cache/
+.pytest_cache/
+.eslintcache
+.stylelintcache
+
+# Python
+*.# Large directories that should not be committed
+**egg-info/
+
+/node_modules/
+**/__pycache__/
+**/.next/
+**/.ruff_cache/
+**/.mypy_cache/
+
+# Demo and test files (optional - remove if you want to keep them)
+# test_*.py
+# demo_*.py
+# check_*.py
+docs/reports/*.md
+
+# Security scan reports
+security-report.json
+bandit-report.json
+npm-audit.json
+*.scan.*
+
+# CI/CD specific
+.github/workflows/*.yml
+!.github/workflows/*.example.yml
